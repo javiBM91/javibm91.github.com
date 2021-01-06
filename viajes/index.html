@@ -2,17 +2,69 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mis viajes</title>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   </head>
   <body>
     <div class="container">
-      <div class="content">
+      <div class="content animate__animated animate__fadeInDown">
         <header>
-          <h1>Mis viajes</h1>
+          <h1 class="title">Mis viajes</h1>
         </header>
+        <table class="table">
+          <thead>
+            <th>#</th>
+            <th>City/Country</th>
+            <th>Year</th>
+            <th>Ranking</th>
+            <th>Show</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>London</td>
+              <td>UK</td>
+              <td><i class="fas fa-flag"></i><i class="fas fa-flag"></i><i class="fas fa-flag"></i><i class="fas fa-flag"></i><i class="far fa-flag"></i></td>
+              <td><a href="#" class="paginas">See travel</a></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Prague</td>
+              <td>Chec Republic</td>
+              <td><i class="fas fa-flag"></i><i class="fas fa-flag"></i><i class="fas fa-flag"></i><i class="fas fa-flag"></i><i class="fas fa-flag"></i></td>
+              <td><a href="#" class="paginas">See travel</a></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Iceland</td>
+              <td>Iceland</td>
+              <td><i class="fas fa-flag"></i><i class="fas fa-flag"></i><i class="fas fa-flag"></i><i class="fas fa-flag"></i><i class="fas fa-flag"></i></td>
+              <td><a href="./viajes/iceland.html" class="paginas">See travel</a></td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Viena</td>
+              <td>Austria</td>
+              <td><i class="fas fa-flag"></i><i class="fas fa-flag"></i><i class="fas fa-flag"></i><i class="fas fa-flag"></i><i class="fas fa-flag"></i></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Munich</td>
+              <td>Germany</td>
+              <td><i class="fas fa-flag" aria-hidden="true"></i><i class="fas fa-flag"></i><i class="fas fa-flag"></i><i class="fas fa-flag"></i><i class="fas fa-flag"></i></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
+    <script src="./assets/scripts/main.js"></script>
   </body>
 </html>
